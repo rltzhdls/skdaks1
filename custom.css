@@ -1,0 +1,124 @@
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:80px;
+  display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+  
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_3XEr75e5xmQOz9xVV83RmbEkLq6Dd5TIW0VoacD13Egbz8oNyAkknBUMIVOc7kK6etAdsTGDIZVRP0d4Yb-smW2MoaN85_nfGKCVHnnHmvsMAgu21Y1tK2KEmwDnFuhSW6OflHKeenwJFkA9fTP9gaNI1kBXMScA4xsOSoBlx3YV-nnc61gsjW_pCZze/s16000/%EB%82%AD%EB%A7%8C%EB%A1%9C%EA%B3%A02.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+filter: drop-shadow(1px 1px 1px #000);
+
+
+
+}
+
+.main-date span{
+
+    font-size:48px;
+    color:#fff;
+
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:15px;
+
+filter: drop-shadow(3px 3px 3px #000);
+font-family:HeirofLightBold !important;
+font-weight:bold !important;
+
+}
+
+.main-date {
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+    visibility: inherit;
+    filter: brightness(100%);
+    transform: translate(0px, 0px);
+
+   
+margin-top:0px;
+  
+}
+
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:800px!important
+}
+
+.section-promotion .section-promotion__list li{
+top:-140px;
+}
+@media screen and (max-width:1024px){
+.section-promotion .section-promotion__list li {
+top:0;
+}
+.main-text,.main-text p{
+
+}
+    .main-text{
+        padding-top:0px !important;
+    }
+.main-text1 {
+
+}
+	.main-text1:after{
+	font-size:20px;	
+}
+    .main-text .main-text2:after {
+    font-size: 50px;
+    left: 270px;
+        position: absolute;
+        zoom: 50%;
+}
+
+.main-date {
+padding-top:120px;
+margin: 0 auto;
+        text-align: center;
+        left: unset;
+
+}
+	.main-date span{
+font-size:23px;
+}
+    .section-promotion .section-promotion__list{
+        height:215px!important
+    }
+.section-promotion .section-promotion__list li{
+top:0px;
+}
+    .section-promotion{
+       top: 0 !important;
+        padding-top: 90px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
